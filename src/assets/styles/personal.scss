@@ -1,0 +1,77 @@
+.personal {
+    padding-top: 72px;
+    height: 100vh;
+    h4 {
+        margin-top: 108px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        margin-bottom: 48px;
+    }
+
+    &__data {
+        div:nth-child(2n+1) {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+            margin-bottom: 8px;
+        }
+
+        div:nth-child(2n+2) {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 120%;
+            color: #E75626;
+            margin-bottom: 22px;
+        }
+    }
+    .planetMoveArea{
+        right: -269px;
+        top: 102px;
+    }
+    .planetMotion{
+        right: -163px;
+        top: 202px;
+    }
+    .CircularProgressbar{
+        right: -250px;
+        top: 114px;
+    }
+    .circle__points:first-of-type {
+        position: absolute;
+        top: 32px;
+        right: 477px;
+        z-index: 101;
+    }
+    .circle__points:nth-of-type(2) {
+        right: -252px !important;
+        top: 360px !important;
+    }
+    .circle__points:nth-of-type(3) {
+        right: -5px !important;
+        top: 609px !important;
+    }
+    .circle__points:nth-of-type(5){
+        position: absolute;
+        top: 112px !important;
+        right: -5px !important;
+        z-index: 101;
+    }
+    .ring1{
+        top: 141px;
+        left: 1092px;
+    }
+    .MuiCircularProgress-root {
+        width: 541px !important;
+        height: 541px !important;
+        position: absolute;
+        top: 93px;
+        right: -271px;
+        color: #E75626;
+        transition-duration: 50ms;
+    }
+    .MuiCircularProgress-circleDeterminate {
+        stroke-width: 0.1px !important;
+        transition-duration: 50ms;
+    }
+}

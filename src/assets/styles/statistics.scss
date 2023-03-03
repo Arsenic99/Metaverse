@@ -1,0 +1,19 @@
+.stat {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    line-height: 120%;
+    text-align: center;
+    &__number {
+        margin-top: 16px;
+        font-weight: 700;
+        font-size: 28px;
+        letter-spacing: 1px;
+        color: #E75626;
+    }
+    &__text {
+        margin: 12px 0 8px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+}

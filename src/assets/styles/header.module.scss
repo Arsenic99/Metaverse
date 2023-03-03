@@ -1,0 +1,17 @@
+header{
+    position: fixed;
+    width: 100%;
+    padding: 17px 0;
+    z-index: 1000;
+    background-color: #171719;
+    .logo{
+        padding: 12px 86px 13px;
+        background-color: #5A5A5A;
+        border: 1px dashed #C7C7C7;
+    }
+    .button{
+        padding: 10px 24px 7px;
+        background-color: #E75626;
+        border-radius: 30px;
+    }
+}

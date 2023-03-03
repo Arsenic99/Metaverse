@@ -1,0 +1,10 @@
+.App{
+      font-family: 'Bebas Neue';
+      background-color: #171719;
+      overflow-x: hidden;
+}
+.mycontainer{
+      max-width: 1312px !important;
+      width: 100%;
+      margin: 0 auto;
+}

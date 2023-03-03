@@ -1,0 +1,95 @@
+.partlist {
+    max-width: 698px;
+    width: 100%;
+    display: block;
+
+    h4 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+
+    .table {
+        width: 100%;
+        text-align: left;
+
+        &__head {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+            color: #FFFFFF;
+            padding-right: 27px;
+        }
+
+        &__body {
+            font-family: 'Avenir Next Cyr';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            height: 550px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            padding-right: 27px;
+            .delete{
+                position: absolute;
+                top: -6px;
+                right: -203px;
+                border: none;
+                cursor: pointer;
+                span{
+                    display: block;
+                    content: '';
+                    height: 10px;
+                    width: 1px;
+                    background: #FFFFFF;
+                    border-radius: 1px;
+                }
+                span:first-child{
+                    transform: rotate(-45deg);
+                    transform-origin: 0;
+                    position: relative;
+                    top: 10.5px;
+                    right: -3.5px;
+                }
+                span:last-child{
+                    position: relative;
+                    right: -4px;
+                    transform: rotate(45deg);
+                    transform-origin: 0;
+                }
+            }
+        }
+
+        &__row {
+            position: relative;
+            border-bottom: 1px solid white;
+            div {
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                width: 32%;
+                padding: 16px 0;
+                
+            }
+        }
+    }
+    ::-webkit-scrollbar {
+        width: 3px;
+        display: block;
+        margin-left: 100px;
+        padding-left: 100px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #E75626; 
+        border-radius: 2px;
+    }
+    ::-webkit-scrollbar-track {
+        display: block;
+        border-left: 1.25px solid #171719;
+        border-right: 1.25px solid #171719;
+        background-color: #FFFFFF;
+    }
+}
